@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Richard Williamson Jr</title>
+  <style>
+    body {
+      font-family: Georgia, serif;
+      background: #f9f9f9;
+      color: #444;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem;
+      line-height: 1.7;
+    }
+
+    h1 { font-size: 2.2rem; font-weight: normal; color: #222; }
+    h2 { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.12em; color: #999; margin-bottom: 1rem; }
+    h3 { font-size: 1rem; color: #222; margin-bottom: 0.4rem; }
+
+    a { color: #444; }
+    a:hover { color: #000; }
+
+    header, section { border-bottom: 1px solid #ddd; padding-bottom: 2rem; margin-bottom: 2.5rem; }
+
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1px;
+      background: #ddd;
+      border: 1px solid #ddd;
+    }
+
+    .project-card {
+      background: #f9f9f9;
+      padding: 1.4rem;
+      text-decoration: none;
+      color: inherit;
+      display: block;
+    }
+
+    .project-card:hover { background: #fff; }
+    .project-card p { font-size: 0.85rem; color: #666; }
+    .project-card .tag { font-size: 0.75rem; color: #999; font-family: monospace; display: block; margin-top: 0.6rem; }
+
+    footer { font-size: 0.88rem; }
+    footer a { color: #666; margin-right: 1.2rem; }
+    footer a:hover { color: #222; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Richard Williamson Jr</h1>
+    <p>Self-taught developer based in Minneapolis, MN — backend-focused.</p>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>
+      I'm a self-taught developer with a strong interest in low-level systems, backend architecture,
+      and understanding how things work from the ground up. My work spans basic C/C++ and to Python backends, simple REST APIs, 
+      and game development. Currently working on learning new languages like Rust and Ruby. Open to work.
+    </p>
+    <p style="margin-top:1rem; font-size:0.88rem; color:#777;">Python · C / C++ · C# · SQL · Lua / LÖVE2D · Rust · Ruby </p>
+  </section>
+
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+
+      <a class="project-card" href="https://github.com/Richard-Williamson-Jr/C-Word-Counter" target="_blank" rel="noopener">
+        <h3>C Word Counter</h3>
+        <p>A basic GTK 3 desktop application written in C that counts words in real time. Created to show understanding of C and GTK development.</p>
+        <span class="tag">C · GTK3</span>
+      </a>
+
+      <a class="project-card" href="https://github.com/Richard-Williamson-Jr/CS-Rest-API" target="_blank" rel="noopener">
+        <h3>C# Rest API</h3>
+        <p>A simple REST API built with C# and ASP.NET Core. Designed to demonstrate understanding of backend development and API design.</p>
+        <span class="tag">C# · ASP.NET Core</span>
+      </a>
+
+      <a class="project-card" href="https://github.com/Richard-Williamson-Jr/Python-CLI-Task-Manager" target="_blank" rel="noopener">
+        <h3>Python CLI Task Manager</h3>
+        <p>A command-line task management tool built in Python. Lightweight and simple to use. Created to show understanding of Python and CLI development.</p>
+        <span class="tag">Python · CLI</span>
+      </a>
+
+      <a class="project-card" href="https://github.com/Richard-Williamson-Jr/Python-CLI-File-Encryptor-Decryptor" target="_blank" rel="noopener">
+        <h3>Python CLI File Encryptor/Decryptor</h3>
+        <p>A command-line tool for encrypting and decrypting files in Python. Demonstrates understanding of hex handling, XOR encryption, and cryptographic principles.</p>
+        <span class="tag">Python · CLI · Cryptography</span>
+      </a>
+
+      <a class="project-card" href="https://github.com/Richard-Williamson-Jr/frankenfile" target="_blank" rel="noopener">
+        <h3>Frankenfile</h3>
+        <p>AI assisted in creation. A tool for creating and managing custom file structures. Demonstrates understanding of file I/O and data manipulation.</p>
+        <span class="tag">Python · File I/O</span>
+      </a>
+
+      <a class="project-card" href="https://github.com/Richard-Williamson-Jr/Lua-Snake/tree/main" target="_blank" rel="noopener">
+        <h3>Lua Snake</h3>
+        <p>A simple implementation of the classic Snake game using Lua and LÖVE2D. Demonstrates understanding of game development and event handling.</p>
+        <span class="tag">Lua · LÖVE2D</span>
+      </a>
+
+    </div>
+  </section>
+
+  <footer id="contact">
+    <p>Open to work and interesting projects.</p>
+    <br>
+    <a href="https://github.com/Richard-Williamson-Jr" target="_blank" rel="noopener">GitHub</a>
+    <a href="mailto:riwil2024@gmail.com">Email</a>
+  </footer>
+
+</body>
+</html>
